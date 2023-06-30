@@ -1,0 +1,11 @@
+<!--  templates/post_details.html -->
+
+{% extends 'base.html' %} 
+    
+
+{% block content %} 
+    <div class="post-entry">
+        <h2>{{ object.title }}</h2>
+        <p> {{ object.body }}</p>
+    </div>
+{% endblock content %} 
